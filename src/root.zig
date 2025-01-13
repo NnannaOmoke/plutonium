@@ -7,7 +7,7 @@ const Thread = std.Thread;
 const time = std.time;
 const testing = std.testing;
 
-const Task = enum {
+pub const Task = enum {
     SayHi,
     SayName,
     GiveTime,
